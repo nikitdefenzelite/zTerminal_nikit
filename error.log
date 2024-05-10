@@ -1,0 +1,89 @@
+
+
+DevTools listening on ws://127.0.0.1:61297/devtools/browser/48353e28-a832-4c61-8669-8d5a94013fce
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.7.3                                                                         │
+  │ Browser:        Electron 118 (headless)                                                        │
+  │ Node Version:   v20.12.1 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          1 found (runner.cy.js)                                                         │
+  │ Searched:       D:\wamp64\www\projects\zTerminal-Server\cypress\e2e\runner.cy.js               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  runner.cy.js                                                                    (1 of 1)
+
+
+  test_name
+    1) what_it_does
+
+
+  0 passing (24s)
+  1 failing
+
+  1) test_name
+       what_it_does:
+     AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[type="password"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/runner.cy.js:17:10)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     23 seconds                                                                       │
+  │ Spec Ran:     runner.cy.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  D:\wamp64\www\projects\zTerminal-Server\cypress\screenshots\runner.cy.js\test_na     (1280x720)
+     me -- what_it_does (failed).png                                                                
+
+
+  (Video)
+
+  -  Started compressing: Compressing to 32 CRF                                                     
+  -  Finished compressing: 14 seconds                                                
+    Compression progress:  100%
+
+  -  Video output: D:\wamp64\www\projects\zTerminal-Server\cypress\videos\runner.cy.js.mp4
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ×  runner.cy.js                             00:23        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ×  1 of 1 failed (100%)                     00:23        1        -        1        -        -  
+
+
+  0 passing (24s)
+  1 failing
+
+  1) test_name
+       what_it_does:
+     AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[type="password"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/runner.cy.js:17:10)
+
+
+
